@@ -1,0 +1,8 @@
+[monitoring]
+192.168.1.69
+
+[monitoring:vars]
+ansible_user=rafael_qsantos
+ansible_password=123456
+ansible_become_password=123456
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
