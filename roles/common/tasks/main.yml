@@ -1,0 +1,7 @@
+---
+- name: Upgrading system packages
+  ansible.builtin.apt:
+    autoclean: true
+    autoremove: true
+    upgrade: safe
+    update_cache: true
